@@ -1,0 +1,14 @@
+﻿@using tz
+@{
+    ViewData["Title"] = "Home Page";
+}
+ @model User
+
+<form asp-action="Response"  method="post" class="">
+    <label >имя</label>
+    <input asp-for="name"/>
+    <labe> email</labe>
+    <input asp-for="cellphone"/>
+    <button type="submit"></button>
+    </form>
+<
